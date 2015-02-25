@@ -136,9 +136,10 @@ module.exports =
 	# Otherwise use bind for authentication
 	#ldap: 
 	#	host: 'ldap://ldap.host.com:389'
-	#	anonymous: true
 	#	dnObj: 'cn'
-	#	dnSuffix: 'ou=Users,dc=example,dc=com
+	#   	base: 'dc=example,dc=com'
+	#   	bindDN: 'cn=user,ou=Users,dc=ipp,dc=mpg,dc=de'
+	#   	bindCredentials: 'pass'
 	#	emailAtt: 'mail'
 	#	failMessage: 'LDAP User Fail'
 	#	fieldName: 'LDAP User'
