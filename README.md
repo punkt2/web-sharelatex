@@ -1,4 +1,4 @@
-web-sharelatex
+web-sharelatex with LDAP Authentication
 ==============
 
 web-sharelatex is the front-end web service of the open-source web-based collaborative LaTeX editor,
