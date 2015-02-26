@@ -138,6 +138,7 @@ module.exports =
 	#	host: 'ldap://ldap.host.com:389'
 	#	dnObj: 'cn'
 	#   	base: 'dc=example,dc=com'
+	#	anonymous: true
 	#   	bindDN: 'cn=user,ou=Users,dc=ipp,dc=mpg,dc=de'
 	#   	bindCredentials: 'pass'
 	#	emailAttr: 'mail'
