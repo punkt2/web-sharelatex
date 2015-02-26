@@ -140,7 +140,7 @@ module.exports =
 	#   	base: 'dc=example,dc=com'
 	#   	bindDN: 'cn=user,ou=Users,dc=ipp,dc=mpg,dc=de'
 	#   	bindCredentials: 'pass'
-	#	emailAtt: 'mail'
+	#	emailAttr: 'mail'
 	#	failMessage: 'LDAP User Fail'
 	#	fieldName: 'LDAP User'
 	#	placeholder: 'LDAP User ID'
