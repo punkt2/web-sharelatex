@@ -13,7 +13,7 @@ module.exports =
 			else
 				lclient = ldap.createClient({ url: Settings.ldap.host, maxConnections: 10, bindDN: Settings.ldap.bindDN, bindCredentials: Settings.ldap.bindCredentials	})
 
-			filter = "(&(objectClass=person)(cn=" + body.email + "))"
+			filter = "(cn=" + body.email + ")"
 			opts = { filter: filter, scope: 'sub' }
 			
 			lclient.search Settings.ldap.base, opts, (err, res)->
